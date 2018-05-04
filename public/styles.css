@@ -21,11 +21,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .o-grid {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 20px;
-  padding: 20px;
+
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .c-header {
@@ -43,9 +54,35 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
 }
+  .c-header__button {
+    width: 20px;
+    height: 20px;
+
+    display: block;
+    text-indent: -9999px;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+    .c-header__button--menu {
+      background-image: url('/images/menu.svg');
+    }
+    .c-header__button--search {
+      background-image: url('/images/search.svg');
+    }
 
 .c-logo {
+  width: 200px;
+  height: 20px;
 
+  display: block;
+  text-indent: -9999px;
+
+  background-image: url('/images/logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .c-hero {
@@ -57,7 +94,13 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.c-intro {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .c-product {
 }
   .c-product__image { width: 100% }
   .c-product__name { font-size: 14px }
+  .c-product__price { margin-bottom: 0 }
