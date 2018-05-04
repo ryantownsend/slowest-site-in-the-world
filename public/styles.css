@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Serif+Pro');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 40px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Serif Pro', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.o-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.c-header {
+  height: 40px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  padding: 10px;
+  background: #fff;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-logo {
+
+}
+
+.c-hero {
+  width: 100vw;
+  height: 66.66vw;
+  background: transparent url('https://picsum.photos/1600/1200/?random') no-repeat;
+  background-size: cover;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.c-product {
+}
+  .c-product__image { width: 100% }
+  .c-product__name { font-size: 14px }

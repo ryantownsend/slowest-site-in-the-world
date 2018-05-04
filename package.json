@@ -1,0 +1,11 @@
+{
+  "name": "the-slowest-site-in-the-world",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/ryantownsend/slowest-site-in-the-world.git",
+  "author": "Ryan Townsend <ryan@ryantownsend.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "The Slowest Site in the World",
+  "description": "An example really slow website, useful for practicing optimisation techniques",
+  "keywords": [
+    "webperf",
+    "perfmatters"
+  ],
+  "website": "https://github.com/ryantownsend/slowest-site-in-the-world",
+  "repository": "https://github.com/ryantownsend/slowest-site-in-the-world",
+  "logo": "https://raw.githubusercontent.com/ryantownsend/slowest-site-in-the-world/master/docs/logo.png",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "image": "heroku/nodejs"
+}
