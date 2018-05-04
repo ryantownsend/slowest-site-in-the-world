@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 .c-hero {
   width: 100vw;
   height: 66.66vw;
-  background: transparent url('https://picsum.photos/1600/1200/?random') no-repeat;
+  background: transparent url('/images/hero.png') no-repeat;
   background-size: cover;
   text-indent: -9999px;
   overflow: hidden;
