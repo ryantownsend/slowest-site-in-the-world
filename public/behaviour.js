@@ -1,1 +1,1 @@
-console.log("jQuery loaded");
+console.log("Behaviour loaded");
