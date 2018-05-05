@@ -18,9 +18,49 @@
       <a href='#' class='c-header__button c-header__button--search'>Search</a>
     </div>
 
-    <div class='c-hero'>
-      Hero image
-    </div>
+    <picture class='c-hero'>
+      <source srcset='
+        /images/hero@1600w.jxr 1600w,
+        /images/hero@1400w.jxr 1400w,
+        /images/hero@1200w.jxr 1200w,
+        /images/hero@1000w.jxr 1000w,
+        /images/hero@800w.jxr 800w,
+        /images/hero@600w.jxr 600w,
+        /images/hero@400w.jxr 400w'
+        type='image/vnd.ms-photo'
+      />
+      <source srcset='
+        /images/hero@1600w.jp2 1600w,
+        /images/hero@1400w.jp2 1400w,
+        /images/hero@1200w.jp2 1200w,
+        /images/hero@1000w.jp2 1000w,
+        /images/hero@800w.jp2 800w,
+        /images/hero@600w.jp2 600w,
+        /images/hero@400w.jp2 400w'
+        type='image/jp2'
+      />
+      <source srcset='
+        /images/hero@1600w.webp 1600w,
+        /images/hero@1400w.webp 1400w,
+        /images/hero@1200w.webp 1200w,
+        /images/hero@1000w.webp 1000w,
+        /images/hero@800w.webp 800w,
+        /images/hero@600w.webp 600w,
+        /images/hero@400w.webp 400w'
+        type='image/webp'
+      />
+      <img srcset='
+        /images/hero@1600w.jpg 1600w,
+        /images/hero@1400w.jpg 1400w,
+        /images/hero@1200w.jpg 1200w,
+        /images/hero@1000w.jpg 1000w,
+        /images/hero@800w.jpg 800w,
+        /images/hero@600w.jpg 600w,
+        /images/hero@400w.jpg 400w'
+        src='/images/hero@400w.jpg'
+        alt='Hero Image'
+      />
+    </picture>
 
     <div class='c-intro'>
       <h1>The slowest site in the world!</h1>
