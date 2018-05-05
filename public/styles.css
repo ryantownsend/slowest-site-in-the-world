@@ -72,26 +72,15 @@ a {
       background-image: url('/images/search.svg');
     }
 
-.c-logo {
-  width: 200px;
+.c-logo img {
+  width: auto;
   height: 20px;
-
   display: block;
-  text-indent: -9999px;
-
-  background-image: url('/images/logo.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .c-hero {
   width: 100vw;
   height: 66.66vw;
-  background: transparent url('/images/hero.png') no-repeat;
-  background-size: cover;
-  text-indent: -9999px;
-  overflow: hidden;
 }
 
 .c-intro {
