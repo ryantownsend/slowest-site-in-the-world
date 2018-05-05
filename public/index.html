@@ -19,6 +19,7 @@
     </div>
 
     <picture class='c-hero'>
+      <!--[if IE 9]><video style="display: none;><![endif]-->
       <source srcset='
         /images/hero@1600w.jxr 1600w,
         /images/hero@1400w.jxr 1400w,
@@ -49,6 +50,7 @@
         /images/hero@400w.webp 400w'
         type='image/webp'
       />
+      <!--[if IE 9]></video><![endif]-->
       <img srcset='
         /images/hero@1600w.jpg 1600w,
         /images/hero@1400w.jpg 1400w,
@@ -72,7 +74,49 @@
     <div class='o-grid'>
       <div class='c-product'>
         <a href='#'>
-          <img src='/images/product-1.png' class='c-product__image' />
+          <picture class='c-hero'>
+            <!--[if IE 9]><video style="display: none;><![endif]-->
+            <source data-srcset='
+            /images/product-1@600w.jxr 600w
+            /images/product-1@400w.jxr 400w,
+            /images/product-1@300w.jxr 300w,
+            /images/product-1@200w.jxr 200w,
+            /images/product-1@150w.jxr 150w,
+            /images/product-1@100w.jxr 100w'
+              type='image/vnd.ms-photo'
+            />
+            <source data-srcset='
+              /images/product-1@600w.jp2 600w
+              /images/product-1@400w.jp2 400w,
+              /images/product-1@300w.jp2 300w,
+              /images/product-1@200w.jp2 200w,
+              /images/product-1@150w.jp2 150w,
+              /images/product-1@100w.jp2 100w'
+              type='image/jp2'
+            />
+            <source data-srcset='
+              /images/product-1@600w.webp 600w
+              /images/product-1@400w.webp 400w,
+              /images/product-1@300w.webp 300w,
+              /images/product-1@200w.webp 200w,
+              /images/product-1@150w.webp 150w,
+              /images/product-1@100w.webp 100w'
+              type='image/webp'
+            />
+            <!--[if IE 9]></video><![endif]-->
+            <img data-srcset='
+              /images/product-1@600w.jpg 600w
+              /images/product-1@400w.jpg 400w,
+              /images/product-1@300w.jpg 300w,
+              /images/product-1@200w.jpg 200w,
+              /images/product-1@150w.jpg 150w,
+              /images/product-1@100w.jpg 100w'
+              data-src='/images/product-1@100w.jpg'
+              src='data:image/svg+xml,%3Csvg width="100px" height="100px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:%23ddd"%3E%3Cpath d="M71.0000937,37.9998125 L63.9338146,37.9998125 L61.232399,33.9874379 C60.398425,32.7454767 58.9974688,32 57.5005156,32 L42.5009843,32 C41.0040311,32 39.6060748,32.7439768 38.769101,33.9859379 L36.0676854,37.9998125 L29.0014062,37.9998125 C27.343958,37.9998125 26,39.3437705 26,40.9997188 L26,64.9989688 C26,66.654917 27.342458,67.998875 28.9999063,67.998875 L70.9985938,67.998875 C72.656042,67.998875 73.9985,66.654917 73.9985,64.9989688 L74,40.9997188 C74,39.3437705 72.657542,37.9998125 71.0000937,37.9998125 Z M49.99925,60.4991094 C45.0314053,60.4991094 40.9995313,56.4687354 40.9995313,51.4993906 C40.9995313,46.5300459 45.0314053,42.4996719 49.99925,42.4996719 C54.9670948,42.4996719 58.9989688,46.5300459 58.9989688,51.4993906 C58.9989688,56.4687354 54.9670948,60.4991094 49.99925,60.4991094 Z" fill="%23bbb" fill-rule="nonzero" stroke="none" /%3E%3C/svg%3E'
+              alt='Product Image 1'
+              class='c-product__image js-lazy-load'
+            />
+          </picture>
         </a>
         <h2 class='c-product__name'>Tudor Pelagos &ndash; Blue</h2>
         <p class='c-product__price'>From &pound;3,160</p>
@@ -80,7 +124,49 @@
 
       <div class='c-product'>
         <a href='#'>
-          <img src='/images/product-2.png' class='c-product__image' />
+          <picture class='c-hero'>
+            <!--[if IE 9]><video style="display: none;><![endif]-->
+            <source data-srcset='
+              /images/product-2@600w.jxr 600w
+              /images/product-2@400w.jxr 400w,
+              /images/product-2@300w.jxr 300w,
+              /images/product-2@200w.jxr 200w,
+              /images/product-2@150w.jxr 150w,
+              /images/product-2@100w.jxr 100w'
+              type='image/vnd.ms-photo'
+            />
+            <source data-srcset='
+              /images/product-2@600w.jp2 600w
+              /images/product-2@400w.jp2 400w,
+              /images/product-2@300w.jp2 300w,
+              /images/product-2@200w.jp2 200w,
+              /images/product-2@150w.jp2 150w,
+              /images/product-2@100w.jp2 100w'
+              type='image/jp2'
+            />
+            <source data-srcset='
+              /images/product-2@600w.webp 600w
+              /images/product-2@400w.webp 400w,
+              /images/product-2@300w.webp 300w,
+              /images/product-2@200w.webp 200w,
+              /images/product-2@150w.webp 150w,
+              /images/product-2@100w.webp 100w'
+              type='image/webp'
+            />
+            <!--[if IE 9]></video><![endif]-->
+            <img data-srcset='
+              /images/product-2@600w.jpg 600w
+              /images/product-2@400w.jpg 400w,
+              /images/product-2@300w.jpg 300w,
+              /images/product-2@200w.jpg 200w,
+              /images/product-2@150w.jpg 150w,
+              /images/product-2@100w.jpg 100w'
+              data-src='/images/product-2@100w.jpg'
+              src='data:image/svg+xml,%3Csvg width="100px" height="100px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:%23ddd"%3E%3Cpath d="M71.0000937,37.9998125 L63.9338146,37.9998125 L61.232399,33.9874379 C60.398425,32.7454767 58.9974688,32 57.5005156,32 L42.5009843,32 C41.0040311,32 39.6060748,32.7439768 38.769101,33.9859379 L36.0676854,37.9998125 L29.0014062,37.9998125 C27.343958,37.9998125 26,39.3437705 26,40.9997188 L26,64.9989688 C26,66.654917 27.342458,67.998875 28.9999063,67.998875 L70.9985938,67.998875 C72.656042,67.998875 73.9985,66.654917 73.9985,64.9989688 L74,40.9997188 C74,39.3437705 72.657542,37.9998125 71.0000937,37.9998125 Z M49.99925,60.4991094 C45.0314053,60.4991094 40.9995313,56.4687354 40.9995313,51.4993906 C40.9995313,46.5300459 45.0314053,42.4996719 49.99925,42.4996719 C54.9670948,42.4996719 58.9989688,46.5300459 58.9989688,51.4993906 C58.9989688,56.4687354 54.9670948,60.4991094 49.99925,60.4991094 Z" fill="%23bbb" fill-rule="nonzero" stroke="none" /%3E%3C/svg%3E'
+              alt='Product Image 2'
+              class='c-product__image js-lazy-load'
+            />
+          </picture>
         </a>
         <h2 class='c-product__name'>Tudor Black Bay Heritage &ndash; Burgundy</h2>
         <p class='c-product__price'>From &pound;2,410</p>
@@ -88,7 +174,49 @@
 
       <div class='c-product'>
         <a href='#'>
-          <img src='/images/product-3.png' class='c-product__image' />
+          <picture class='c-hero'>
+            <!--[if IE 9]><video style="display: none;><![endif]-->
+            <source data-srcset='
+              /images/product-3@600w.jxr 600w
+              /images/product-3@400w.jxr 400w,
+              /images/product-3@300w.jxr 300w,
+              /images/product-3@200w.jxr 200w,
+              /images/product-3@150w.jxr 150w,
+              /images/product-3@100w.jxr 100w'
+              type='image/vnd.ms-photo'
+            />
+            <source data-srcset='
+              /images/product-3@600w.jp2 600w
+              /images/product-3@400w.jp2 400w,
+              /images/product-3@300w.jp2 300w,
+              /images/product-3@200w.jp2 200w,
+              /images/product-3@150w.jp2 150w,
+              /images/product-3@100w.jp2 100w'
+              type='image/jp2'
+            />
+            <source data-srcset='
+              /images/product-3@600w.webp 600w
+              /images/product-3@400w.webp 400w,
+              /images/product-3@300w.webp 300w,
+              /images/product-3@200w.webp 200w,
+              /images/product-3@150w.webp 150w,
+              /images/product-3@100w.webp 100w'
+              type='image/webp'
+            />
+            <!--[if IE 9]></video><![endif]-->
+            <img data-srcset='
+              /images/product-3@600w.jpg 600w
+              /images/product-3@400w.jpg 400w,
+              /images/product-3@300w.jpg 300w,
+              /images/product-3@200w.jpg 200w,
+              /images/product-3@150w.jpg 150w,
+              /images/product-3@100w.jpg 100w'
+              data-src='/images/product-3@100w.jpg'
+              src='data:image/svg+xml,%3Csvg width="100px" height="100px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:%23ddd"%3E%3Cpath d="M71.0000937,37.9998125 L63.9338146,37.9998125 L61.232399,33.9874379 C60.398425,32.7454767 58.9974688,32 57.5005156,32 L42.5009843,32 C41.0040311,32 39.6060748,32.7439768 38.769101,33.9859379 L36.0676854,37.9998125 L29.0014062,37.9998125 C27.343958,37.9998125 26,39.3437705 26,40.9997188 L26,64.9989688 C26,66.654917 27.342458,67.998875 28.9999063,67.998875 L70.9985938,67.998875 C72.656042,67.998875 73.9985,66.654917 73.9985,64.9989688 L74,40.9997188 C74,39.3437705 72.657542,37.9998125 71.0000937,37.9998125 Z M49.99925,60.4991094 C45.0314053,60.4991094 40.9995313,56.4687354 40.9995313,51.4993906 C40.9995313,46.5300459 45.0314053,42.4996719 49.99925,42.4996719 C54.9670948,42.4996719 58.9989688,46.5300459 58.9989688,51.4993906 C58.9989688,56.4687354 54.9670948,60.4991094 49.99925,60.4991094 Z" fill="%23bbb" fill-rule="nonzero" stroke="none" /%3E%3C/svg%3E'
+              alt='Product Image 3'
+              class='c-product__image js-lazy-load'
+            />
+          </picture>
         </a>
         <h2 class='c-product__name'>Tudor Black Bay Steel</h2>
         <p class='c-product__price'>From &pound;2,490</p>
@@ -96,7 +224,49 @@
 
       <div class='c-product'>
         <a href='#'>
-          <img src='/images/product-4.png' class='c-product__image' />
+          <picture class='c-hero'>
+            <!--[if IE 9]><video style="display: none;><![endif]-->
+            <source data-srcset='
+              /images/product-4@600w.jxr 600w
+              /images/product-4@400w.jxr 400w,
+              /images/product-4@300w.jxr 300w,
+              /images/product-4@200w.jxr 200w,
+              /images/product-4@150w.jxr 150w,
+              /images/product-4@100w.jxr 100w'
+              type='image/vnd.ms-photo'
+            />
+            <source data-srcset='
+              /images/product-4@600w.jp2 600w
+              /images/product-4@400w.jp2 400w,
+              /images/product-4@300w.jp2 300w,
+              /images/product-4@200w.jp2 200w,
+              /images/product-4@150w.jp2 150w,
+              /images/product-4@100w.jp2 100w'
+              type='image/jp2'
+            />
+            <source data-srcset='
+              /images/product-4@600w.webp 600w
+              /images/product-4@400w.webp 400w,
+              /images/product-4@300w.webp 300w,
+              /images/product-4@200w.webp 200w,
+              /images/product-4@150w.webp 150w,
+              /images/product-4@100w.webp 100w'
+              type='image/webp'
+            />
+            <!--[if IE 9]></video><![endif]-->
+            <img data-srcset='
+              /images/product-4@600w.jpg 600w
+              /images/product-4@400w.jpg 400w,
+              /images/product-4@300w.jpg 300w,
+              /images/product-4@200w.jpg 200w,
+              /images/product-4@150w.jpg 150w,
+              /images/product-4@100w.jpg 100w'
+              data-src='/images/product-4@100w.jpg'
+              src='data:image/svg+xml,%3Csvg width="100px" height="100px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:%23ddd"%3E%3Cpath d="M71.0000937,37.9998125 L63.9338146,37.9998125 L61.232399,33.9874379 C60.398425,32.7454767 58.9974688,32 57.5005156,32 L42.5009843,32 C41.0040311,32 39.6060748,32.7439768 38.769101,33.9859379 L36.0676854,37.9998125 L29.0014062,37.9998125 C27.343958,37.9998125 26,39.3437705 26,40.9997188 L26,64.9989688 C26,66.654917 27.342458,67.998875 28.9999063,67.998875 L70.9985938,67.998875 C72.656042,67.998875 73.9985,66.654917 73.9985,64.9989688 L74,40.9997188 C74,39.3437705 72.657542,37.9998125 71.0000937,37.9998125 Z M49.99925,60.4991094 C45.0314053,60.4991094 40.9995313,56.4687354 40.9995313,51.4993906 C40.9995313,46.5300459 45.0314053,42.4996719 49.99925,42.4996719 C54.9670948,42.4996719 58.9989688,46.5300459 58.9989688,51.4993906 C58.9989688,56.4687354 54.9670948,60.4991094 49.99925,60.4991094 Z" fill="%23bbb" fill-rule="nonzero" stroke="none" /%3E%3C/svg%3E'
+              alt='Product Image 4'
+              class='c-product__image js-lazy-load'
+            />
+          </picture>
         </a>
         <h2 class='c-product__name'>Tudor Black Bay Chrono</h2>
         <p class='c-product__price'>From &pound;3,390</p>
