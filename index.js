@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000
 app.use(express.static('public'))
 
 // compress with GZIP
-app.use(compression())
+app.use(compression({ threshold: 0 }))
 
 // listen on the defined port
 app.listen(PORT, () => console.log(`App booted on port ${PORT}`))
