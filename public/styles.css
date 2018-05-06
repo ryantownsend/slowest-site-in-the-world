@@ -88,7 +88,7 @@ a {
 .c-hero {
   width: 100vw;
   height: 66.66vw;
-  background: transparent url('/images/hero.png') no-repeat;
+  background: transparent url('/images/hero.jpg') no-repeat;
   background-size: cover;
   text-indent: -9999px;
   overflow: hidden;
